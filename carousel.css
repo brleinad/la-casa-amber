@@ -8,6 +8,10 @@ body {
   color: #5a5a5a;
 }
 
+.bg-amber {
+  background-color:#ffcc00;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -32,6 +36,30 @@ body {
   left: 0;
   min-width: 100%;
   height: 32rem;
+}
+
+#casa-carousel-caption {
+  position: absolute;
+}
+
+#main-carousel-item {
+  background: no-repeat center url(images/unsplash/clovis-castaneda-mobile-unsplash.jpg) #ffcc00;
+  background-size: cover;
+}
+
+
+#casa-carousel-item {
+  background: no-repeat left url(images/casa/IMG_1518.JPG) #ffcc00;
+  background-size: cover;
+}
+
+#tours-carousel-item {
+  background: no-repeat right url(images/unsplash/ronald-cuyan-mobile-unsplash.jpg) #ffcc00;
+  background-size: cover;
+} 
+.carousel-caption {
+  /*position: absolute;*/
+  text-shadow: black 0.2em 0.2em 0.3em;
 }
 
 
@@ -81,35 +109,26 @@ body {
   .featurette-heading {
     font-size: 50px;
   }
+
+  #main-carousel-item {
+    background: no-repeat center url(images/unsplash/clovis-castaneda-unsplash.jpg) #ffcc00;
+    background-size: cover;
+  }
+
+
+  #casa-carousel-item {
+    background: no-repeat left url(images/casa/IMG_1518.JPG) #ffcc00;
+    background-size: cover;
+  }
+
+  #tours-carousel-item {
+    background: no-repeat right url(images/unsplash/ronald-cuyan-unsplash.jpg) #ffcc00;
+    background-size: cover;
+  }
 }
 
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
   }
-}
-
-
-#main-carousel-item {
-  background: no-repeat center url(images/unsplash/clovis-castaneda-unsplash.jpg);
-  background-size: cover;
-}
-
-.bg-amber {
-  background-color:#ffcc00;
-}
-
-#casa-carousel-item {
-  background: no-repeat left url(images/casa/IMG_1518.JPG);
-  background-size: cover;
-}
-
-#tours-carousel-item {
-  background: no-repeat right url(images/unsplash/ronald-cuyan-unsplash.jpg);
-  background-size: cover;
-}
-
-#casa-carousel-caption {
-  position: absolute;
-  text-shadow: black 0.2em 0.2em 0.3em;
 }
