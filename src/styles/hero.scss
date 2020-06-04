@@ -4,25 +4,23 @@ html,body {
 }
 .hero-body {
     background: url(../images/unsplash/ronald-cuyan-unsplash.jpg);
+    //background-attachment: fixed;
     background-position: center;
     background-size: cover;
 
-    .container {
-    max-width: 700px;
-    }
     .title {
-    color: hsl(192,17%,99%) !important;
+        color: hsl(192,17%,99%) !important;
     }
     .subtitle {
-    color: hsl(192,17%,99%) !important;
-    padding-top: 2rem;
-    line-height: 1.5;
+        color: hsl(192,17%,99%) !important;
+        padding-top: 2rem;
+        line-height: 1.5;
+    }
+    .container {
+        max-width: 700px;
     }
 }
 
-.features {
-  padding: 5rem 0;
-}
 .box.cta {
   border-radius: 0;
   border-left: none;
